@@ -24,7 +24,7 @@ const Projects = () => {
       title: "A E-commerce Platform",
       description:
         "The Project is about a Biscuit company which was given me as a task in my Internship. It is a full stack website but for now it is only a client side app only. The server-side is under Process. ",
-      image: "/Cover page of p4.png",
+      image: "/ecommerce banner.png",
       link: "https://app1-orcin.vercel.app/",
     },
   ];
