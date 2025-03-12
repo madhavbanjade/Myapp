@@ -1,6 +1,7 @@
 import React from "react";
+import { BiLogoPostgresql } from "react-icons/bi";
 import { FaJs, FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
+import { SiExpress, SiMongodb } from "react-icons/si";
 
 const skills = [
   { name: "JavaScript", icon: <FaJs className="text-yellow-300" /> },
@@ -9,13 +10,13 @@ const skills = [
   { name: "CSS", icon: <FaCss3Alt className="text-blue-300" /> },
   { name: "Express", icon: <SiExpress className="text-gray-700" /> },
   { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
-
+  { name: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
+  { name: "Postgresql", icon: <BiLogoPostgresql className="text-blue-500" /> },
 ];
 
 const Skills = () => {
   return (
-    <div
-    className=" py-8 px-8 lg:flex lg:space-x-10">
+    <div className=" py-8 px-8 lg:flex lg:space-x-10">
       {/* Heading Section */}
       <div className="max-w-3xl mx-auto lg:flex flex-col justify-center lg:mt-4 lg:text-left text-center">
         <h1 className="text-4xl font-bold mb-4">

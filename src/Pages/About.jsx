@@ -39,8 +39,8 @@ const About = () => {
 
           <div className="">
             <a
-              href="/Madhav Banjade Resume.pdf" // Replace with the correct path to your resume
-              download="My_CV.pdf"
+              href="/Madhav Banjade.pdf" 
+              download="MadhavBanjade.pdf"
               className=" bg-blue-500 hover:bg-blue-600 text-white px-8 py-2 rounded-lg uppercase transition-all duration-300 "
             >
               Download CV

@@ -14,17 +14,15 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Scroll to section and close mobile menu
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
+      setIsMenuOpen(false); // Close menu on click
     }
   };
 
-
-  const closeMenu = () => {
-    
-  }
   return (
     <nav
       className={`sticky top-0 z-50 flex flex-row mx-auto gap-10 px-16 py-4 items-center transition-all duration-300 ${
@@ -42,7 +40,7 @@ const Header = () => {
 
       {/* Mobile Hamburger Icon */}
       <div
-        className="lg:hidden ml-auto flex flex-col gap-2"
+        className="lg:hidden ml-auto flex flex-col gap-2 cursor-pointer"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         <div className="w-6 h-1 bg-white rounded"></div>
