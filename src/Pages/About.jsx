@@ -36,7 +36,7 @@ const About = () => {
 
           <div className="">
             <a
-              href="/Madhav Banjade.pdf" 
+              href="/Madhav Banjade.pdf"
               download="MadhavBanjade.pdf"
               className=" bg-blue-500 hover:bg-blue-600 text-white px-8 py-2 rounded-lg uppercase transition-all duration-300 "
             >
