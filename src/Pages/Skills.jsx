@@ -17,7 +17,6 @@ const skills = [
 const Skills = () => {
   return (
     <div className=" py-8 px-8 lg:flex lg:space-x-10">
-      {/* Heading Section */}
       <div className="max-w-3xl mx-auto lg:flex flex-col justify-center lg:mt-4 lg:text-left text-center">
         <h1 className="text-4xl font-bold mb-4">
           What My <span className="text-blue-400">Programming</span> Skills
@@ -31,7 +30,6 @@ const Skills = () => {
         </p>
       </div>
 
-      {/* Skills Section */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-12">
         {skills.map((skill, index) => (
           <div

@@ -4,7 +4,6 @@ const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Add event listener for scroll detection
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 0);
@@ -14,12 +13,11 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Scroll to section and close mobile menu
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
-      setIsMenuOpen(false); // Close menu on click
+      setIsMenuOpen(false);
     }
   };
 
@@ -29,7 +27,6 @@ const Header = () => {
         isScrolled ? "bg-[#303030] shadow-md" : "bg-transparent shadow-none"
       }`}
     >
-      {/* Portfolio - Scrolls to Home */}
       <span
         id="portfolio"
         className="text-3xl font-bold cursor-pointer text-blue-400"
@@ -38,7 +35,6 @@ const Header = () => {
         Portfolio.
       </span>
 
-      {/* Mobile Hamburger Icon */}
       <div
         className="lg:hidden ml-auto flex flex-col gap-2 cursor-pointer"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -48,7 +44,6 @@ const Header = () => {
         <div className="w-6 h-1 bg-white rounded"></div>
       </div>
 
-      {/* Desktop Menu */}
       <ul className="hidden lg:flex flex-row text-left gap-8 ml-auto text-lg">
         {[
           { id: "home", label: "Home" },
@@ -68,7 +63,6 @@ const Header = () => {
         ))}
       </ul>
 
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <ul className="lg:hidden absolute top-16 right-0 bg-[#303030] w-40 py-2 rounded-md text-white shadow-lg">
           {[

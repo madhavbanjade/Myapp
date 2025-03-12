@@ -14,7 +14,6 @@ const Profile = () => {
         id="home"
         className="flex flex-col lg:flex-row items-center justify-between p-8 lg:px-24 pt-12 lg:pt-16"
       >
-        {/* Text Section */}
         <div className="lg:w-1/2 text-center lg:text-left">
           <h1 className="text-4xl lg:text-5xl font-extrabold  mb-4">
             Hello, I'm{" "}
@@ -41,7 +40,6 @@ const Profile = () => {
             </a>
           </div>
 
-          {/* Social Media Links */}
           <div className="flex justify-center lg:justify-start gap-6 mt-6">
             <a
               href="https://www.instagram.com/banjade.m/"
@@ -70,7 +68,6 @@ const Profile = () => {
           </div>
         </div>
 
-        {/* Image Section */}
         <div
           data-aos="fade-left"
           className="hidden lg:flex lg:w-1/2 justify-center"

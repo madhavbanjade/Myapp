@@ -9,7 +9,6 @@ import Profile from "./Pages/Profile";
 const Home = () => {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
 
       <div id="home">
         <Profile />

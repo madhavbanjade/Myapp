@@ -10,7 +10,6 @@ import {
 const Contact = () => {
   return (
     <div  className=" py-4 px-4 lg:px-24">
-      {/* Heading */}
       <div className="text-center lg:text-left mb-12">
         <h1 className="text-4xl font-bold mb-4">
           Excited to Learn About Your{" "}
@@ -22,9 +21,7 @@ const Contact = () => {
         </p>
       </div>
 
-      {/* Contact Information */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-        {/* Address */}
         <div className="flex items-start space-x-4">
           <FaMapMarkerAlt className="text-3xl text-blue-400" />
           <div>
@@ -33,7 +30,6 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Phone */}
         <div className="flex items-start space-x-4">
           <FaPhoneAlt className="text-3xl text-blue-400" />
           <div>
@@ -42,7 +38,6 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Email */}
         <div className="flex items-start space-x-4">
           <FaEnvelope className="text-3xl text-blue-400" />
           <div>
@@ -52,7 +47,6 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Social Links */}
       <div className="mt-12 flex justify-center lg:justify-start space-x-6">
         <a
           href="https://wa.me/9749344926"

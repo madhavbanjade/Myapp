@@ -6,12 +6,10 @@ const About = () => {
       className="p-8 space-y-6  text-center lg:text-left  py-24
     "
     >
-      {/* Flex container for image and text */}
       <div
         data-aos="fade-right"
         className="flex flex-col lg:flex-row items-center lg:space-x-20 "
       >
-        {/* Image Section */}
         <div className=" w-full flex ">
           <img
             src="/IMG_5187.jpg"
@@ -20,7 +18,6 @@ const About = () => {
           />
         </div>
 
-        {/* Text Section */}
         <div data-aos="fade-left" className="mt-12 lg:mt-0 space-y-4">
           <h1 className="text-3xl font-semibold">
             Need a <span className="uppercase text-blue-500">Creative</span>{" "}

@@ -39,7 +39,6 @@ const Projects = () => {
 
   return (
     <section data-aos="" className=" py-20 px-4 lg:px-24 mt-4 ">
-      {/* Header Section */}
       <div className="text-center lg:text-left mb-12">
         <h1 className="text-4xl font-bold">
           See My Works That Will <span className="text-blue-400">Amaze</span>{" "}
@@ -52,7 +51,6 @@ const Projects = () => {
         </p>
       </div>
 
-      {/* Projects Section */}
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {projectList.map((project) => (
           <div

@@ -4,7 +4,6 @@ import { FaArrowUp } from "react-icons/fa";
 const Arrow = () => {
   const [visible, setVisible] = useState(false);
 
-  // Show the arrow when scrolling down 300px
   const handleScroll = () => {
     setVisible(window.scrollY > 300);
   };

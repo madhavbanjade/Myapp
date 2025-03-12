@@ -1,7 +1,6 @@
 import { StrictMode, useEffect } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-// import App from "./App.jsx";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -11,15 +10,14 @@ import {
 import Layout from "./Layout.jsx";
 import Home from "./Home.jsx";
 import Aos from "aos";
-import "aos/dist/aos.css"; // Import AOS CSS
-
+import "aos/dist/aos.css";
 
 const App = () => {
   useEffect(() => {
     Aos.init({
-      duration: 900, // Animation duration
-      easing: "ease-in-out", // Animation easing
-      once: false, // Whether animation should happen only once
+      duration: 900,
+      easing: "ease-in-out",
+      once: false,
     });
   }, []);
   return (
