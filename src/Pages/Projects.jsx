@@ -20,14 +20,6 @@ const Projects = () => {
       link: "#",
     },
     {
-      id: 3,
-      title: "Simple Landing Page",
-      description:
-        "The above project is build during my internship which have a landing page of a company called Young Scientist.",
-      image: "/Young scientist.png",
-      link: "https://landing-page-react-red.vercel.app/",
-    },
-    {
       id: 4,
       title: "A E-commerce Platform",
       description:
