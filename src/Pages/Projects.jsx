@@ -7,24 +7,16 @@ const Projects = () => {
       id: 1,
       title: "Real-State Platform",
       description:
-        "The Real estate platform leverages the power of the MERN stack, Firebase, and Redux to deliver a seamless experience.",
+        "The Real estate platform leverages the power of the MERN stack to deliver a seamless experience.",
       image: "/reaakstate2.webp",
-      link: "https://gharjagga-nepal.onrender.com/",
+      link: "https://gharjagganep.onrender.com/",
     },
-    {
-      id: 2,
-      title: "Portfolio",
-      description:
-        "This is my portfolio where I am showing my skills project using ReactJs and TailwindCss.",
-      image: "/canva-green-modern-portfolio-cover-page-g9xqBFDoldA.jpg",
-      link: "#",
-    },
+
     {
       id: 4,
       title: "A E-commerce Platform",
-      description:
-        "The Project is about a Biscuit company which was given me as a task in my Internship. It is a full stack website but for now it is only a client side app only. The server-side is under Process. ",
-      image: "/ecommerce banner.png",
+      description: "The project is made by pure react + vite.",
+      image: "/e-app.webp",
       link: "https://app1-orcin.vercel.app/",
     },
   ];

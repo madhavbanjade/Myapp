@@ -11,7 +11,6 @@ const skills = [
   { name: "Express", icon: <SiExpress className="text-gray-700" /> },
   { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
   { name: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
-  { name: "Postgresql", icon: <BiLogoPostgresql className="text-blue-500" /> },
 ];
 
 const Skills = () => {
